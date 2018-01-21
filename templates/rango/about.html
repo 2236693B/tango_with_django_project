@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+{% load staticfiles %}
+
+<html>
+    <head>
+        <title> Rango - About </title>
+    </head>
+
+    <body>
+        <h1> Rango says...</h1>
+	    <div>
+	         This tutorial has been put togther by Conor<br />
+	    </div>
+	    <div>
+		    <img src= "{{ MEDIA_URL }}cat.jpg"
+                 alt="Picture of Cat" />
+		</div>
+		<div>			
+	        <a href="/rango/">Home </a><br />
+			
+		    <img src= "{% static "images/rango.jpg" %}"
+			     alt="Picture of Rango"/>
+	    </div>
+    </body>
+
+</html>
