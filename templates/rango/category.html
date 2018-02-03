@@ -20,16 +20,20 @@
                         {% endfor %}
 
                     </ul>
-                { % else %}
+                {% else %}
 
-                    <strong>No pages currently in category</strong>
+                    <strong>No pages currently in category.</strong>
 
                 {% endif %}
 
-                { % else %}
-                    The specified catewgory does not exist!
+                {% else %}
+                    The specified category does not exist!
             {%  endif %}
         </div>
+
+         <div>
+	        <a href="/rango/">Index</a>
+	    </div>
 
 
     </body>
